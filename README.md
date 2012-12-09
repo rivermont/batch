@@ -6,7 +6,7 @@ Each icon in the Batch PSD is a single shape layer, meaning they can be scaled u
 
 ##Versions
 
-As Batch is a growing resource, it made the most sense to host it on GitHub for the versioning and wiki features.
+As Batch is a growing resource, it made the most sense to host it on GitHub for the versioning and wiki features. View the [version history here](https://github.com/AdamWhitcroft/Batch/wiki/Version-History).
 
 ##Batch Icon-font
 
