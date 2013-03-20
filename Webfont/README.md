@@ -1,6 +1,6 @@
 #Batch Webfont How-To and FAQ
 
-###This guide is not the only way to incorporate the Batch webfont into your work. I am far from classing myself as a developer. It is just a guide to help you understand more how the web-font is constructed and how best to implement it. 
+###This guide is not the only way to incorporate the Batch webfont into your work. I am far from classing myself as a developer. It is just a guide to help you understand more how the web-font is constructed and how you could implement it. 
 ####If you get stuck at all, or require further details the quickest way to contact me is via my [twitter](http://twitter.com/sdmix).
 
 #####Font Face Setup
@@ -18,7 +18,7 @@ First up, let's get the CSS for getting the Batch web-font into your project:
         font-style:normal;
       }
     
-In this example, the font files are located in the _root/assets/_ folder, if this isn't where you plan on storing the files, just change these values.
+In this example, the font files are located in the _root/assets/_  folder, if this isn't where you plan on storing the files, just change these values.
 Once you've got this in your CSS, you're set up and ready to go.
 
 
@@ -57,18 +57,18 @@ There are many ways you can implement the font into your work, the above was jus
 
 My personal favourite would be using the following markup:
 
-    <a href="#"><i class="batch" data-icon="&#xF000;"></i> View your favourites</a>
+    <a href="#"><i class="batch" data-icon="&#xF000;"></i> Join the Conversation</a>
     
 With the above code plus the following extra line in your CSS:
 
-    .batch:before{
+    .batch:before {
         content:attr(data-icon);
     }
     
 You can then also add sizing elements to alter the size of the icons produced:
 
-    .batch--large   { font-size:32px; }
-    .batch--huge    { font-size:64px; }
+    .batch--large { font-size:32px; }
+    .batch--huge { font-size:64px; }
     .batch--natural { font-size:inherit; }
     
 Pretty cool right!
