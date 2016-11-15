@@ -1,0 +1,12 @@
+<script type="text/javascript">
+	var downloadButton = document.getElementById('download-button');
+	var tweetButton = document.getElementById('tweet-button');
+
+	downloadButton.onclick = function(){
+		ga('send', 'event', 'Download button', 'Download {{ page.title }}');
+	};
+
+	tweetButton.onclick = function(){
+		ga('send', 'event', 'Tweet button', 'Tweet about {{ page.title }}');
+	};
+</script>
